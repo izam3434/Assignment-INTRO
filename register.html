@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ลงทะเบียน | รับสมัครนักศึกษา</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="site">
+
+  <header class="header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="หน้าหลัก">
+        <img class="logo" src="images/logo.png" alt="ตรามหาวิทยาลัย">
+        <div class="brand-text">
+          <div class="brand-title">รับสมัครนักศึกษา</div>
+          <div class="brand-subtitle">มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ</div>
+        </div>
+      </a>
+
+      <a class="header-contact" href="contact.html">ติดต่อเรา</a>
+    </div>
+  </header>
+
+  <nav class="navbar" aria-label="เมนูหลัก">
+    <ul class="nav-list">
+        <li><a href="index.html">หน้าหลัก</a></li>
+        <li><a href="register.html" class="active" aria-current="page">สมัครเรียน</a></li>
+        <li><a href="announcements.html">ประกาศ</a></li>
+        <li><a href="courses.html">หลักสูตร</a></li>
+        <li><a href="downloads.html">ดาวน์โหลด</a></li>
+    </ul>
+  </nav>
+
+
+  <main class="content">
+    <div class="page-banner">
+      <h1>ลงทะเบียน</h1>
+    </div>
+
+    <section class="container">
+      <form class="form-box" action="#" method="post">
+        <h2 class="form-title">ลงทะเบียนเพื่อสมัครเรียน</h2>
+
+        <div class="form-row">
+          <label class="form-label" for="citizen-id">เลขประจำตัวประชาชน</label>
+          <input class="input" id="citizen-id" name="citizen_id" inputmode="numeric" maxlength="13" required>
+
+          <label class="form-label" for="first-name">ชื่อ</label>
+          <input class="input" id="first-name" name="first_name" required>
+
+          <label class="form-label" for="last-name">นามสกุล</label>
+          <input class="input" id="last-name" name="last_name" required>
+
+          <label class="form-label" for="email">อีเมล์</label>
+          <input class="input" id="email" name="email" type="email" required>
+
+          <label class="form-label" for="phone">เบอร์โทรศัพท์</label>
+          <input class="input" id="phone" name="phone" type="tel" required>
+        </div>
+
+        <div class="form-buttons">
+          <a class="btn" href="register_2.html">ลงทะเบียน</a>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <p class="footer-title">ติดต่อ</p>
+        <p class="footer-text">
+          มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ วิทยาเขตปราจีนบุรี<br>
+          ตำบล เนินหอม อำเภอเมืองปราจีนบุรี ปราจีนบุรี 25230<br>
+          ☎ +66 037217300
+        </p>
+      </div>
+      <div>
+        <div class="footer-text">ติดตามเราได้ที่</div>
+        <a class="facebook" href="https://www.facebook.com/FITM.KMUTNB" aria-label="Facebook">f</a>
+      </div>
+    </div>
+  </footer>
+
+  </div>
+</body>
+</html>
